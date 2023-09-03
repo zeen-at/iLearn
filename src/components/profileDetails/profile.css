@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body {
+	font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+	margin: 0;
+}
+hr{
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.profile-container {
+	padding-top: 10px;
+	max-width: 100%;
+	text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.profile-head{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-head button{
+    border: none;
+    background-color: transparent;
+}
+.profile-tutor{
+    display: flex;
+    border-radius: 50%;
+    width: 8em;
+    height: 5em;
+}
+.tutorAvatar{
+    width: 100%;
+    object-fit: cover;
+    height: 100%; 
+    border-radius: 50%;
+}
+.profile-tutor-details{
+    margin-left: 20px;
+}
+
+.certify-icon{
+    color: #14A800;
+}
+
+.profile-expertise-list{
+    list-style: none;
+    display: flex;
+}
+.profile-expertise-list li{
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: rgb(234, 230, 230);
+    border-radius: 20px;
+}
+.availabilityButton{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(223, 99, 32);
+    border-radius: 5px;
+    padding: 10px;
+}
+.availabilityButton button{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out
+}
+.availabilityButton button:hover{
+    background-color: rgb(223, 99, 32);
+    color: rgb(201, 172, 157);
+}

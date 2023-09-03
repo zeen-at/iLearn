@@ -1,0 +1,21 @@
+.cd-span-number{
+   position: relative;
+   bottom: 3px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   padding-top: 2px;
+}
+.cd-span{
+   color: #FFC107;
+}
+
+.cd-ratingstars{
+  display: flex;
+}
+
+.cd-ratingcontainer{
+  display: flex;
+}

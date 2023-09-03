@@ -1,0 +1,38 @@
+.tutor-review {
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+   
+    /* border: 2px solid #FD2959; */
+    margin-left: 10px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.16);
+
+
+}
+
+.tutor-review-block {
+    display: flex;
+    padding: 10px 0;
+}
+
+.tutor-review-write {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.tutor-review-block img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+@media screen and (max-width: 1070px) {
+    .tutor-review {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        border: inherit;
+    }
+}

@@ -1,0 +1,18 @@
+.Modal-Area {
+  position: absolute;
+  display: flex;
+  width: 25%;
+  right: 1%;
+  top: 65px;
+  width: 30%;
+  height: 66%;
+  overflow: auto;
+  box-shadow: 10px 10px 5px #eee;
+}
+
+.Modal-content {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 5%;
+  text-decoration: none;
+}

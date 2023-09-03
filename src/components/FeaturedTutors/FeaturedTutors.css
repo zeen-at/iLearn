@@ -1,0 +1,51 @@
+.tutor-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 5rem;
+
+}
+.all_container{
+    margin-right: 60px;
+    width: 80%;
+}
+#head{
+    margin-left: 5rem;
+}
+.images {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+.featured_image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%; 
+    border-radius: 50%;
+}
+
+.names {
+    margin: 0;
+}
+
+.ratings {
+    margin-top: 0;
+}
+
+.img-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tutors-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+}
+
+.see-all-tutors {
+    color: #FD2959;
+    text-decoration: none;
+}

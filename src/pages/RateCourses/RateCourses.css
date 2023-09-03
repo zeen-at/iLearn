@@ -1,0 +1,114 @@
+
+.rate_course_container{
+    width: 100vw;
+    height: 100%;
+    border: 2px solid brown; 
+}
+.rate_course_subNavbar{
+    display: flex;
+    height: 3em;
+    align-items: center;
+    margin-top: 1em;
+    width: 75vw;
+  
+}
+.rate_course_left{
+    /* margin: 0em 12rem; */
+    flex: 2.5;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    padding-left: 7em;
+    /* background-color: aquamarine; */
+}
+.rate_course_right{
+    /* margin-left: 4rem; */
+    text-align: center;
+    flex: 6;
+    /* background-color: blueviolet; */
+}
+.rate_course_arrowButton{
+    font-size: 2.5em;
+    margin-right: .4em;
+    cursor: pointer;
+}
+.rate_course_logo{
+    /* flex: 2; */
+    /* background-color: aquamarine; */
+    flex: 1;
+    /* margin: 3px; */
+    height: 10vh;
+    /* position: relative */
+
+}
+.rate_course_image{
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rate_course_titleDesc{
+    display: flex;
+    /* flex: 4; */
+    margin-top: 2em;
+    /* padding-top: 2em; */
+    /* background-color: #FA2; */
+    height: 6em;
+    /* width: 12em */
+}
+.rate_course_body{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    width: 42vw;
+    height: 622px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 4em 27%;
+}
+
+.rate_course_comment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rate_course_firstContainer{
+    display: flex;
+    /* margin: auto 4em; */
+}
+.rate_course_textArea{
+    width: 32vw;
+    height: 172px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 0.4em 1em;
+    margin-top: 0.5em;
+}
+.rate_course_backButton{
+    cursor: pointer;
+}
+.rate_course_sendButton{
+    width: 32vw;
+    height: 48px;
+    background: #FD2959;
+    cursor: pointer;
+    margin: 1.5em auto;
+}
+.rate_course_line{
+    width: 80vw;
+    margin: auto 8em;
+}
+.rate_course-subheading{
+    /* background-color: #FD2959; */
+    width: 12em;
+    /* height: 5em; */
+    /* flex: 3; */
+    margin-left: 1.5em;
+    font-size: 1.4em;
+}
+.rate_course_titleAndName{
+    /* height: 1em; */
+}
+.rate_course_starComponent{
+    font-size: 2rem;
+}

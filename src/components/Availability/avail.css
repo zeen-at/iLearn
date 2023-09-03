@@ -1,0 +1,37 @@
+.availa_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date_picker {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.label-tag {
+  font-size: 14px;
+}
+
+.avail-btn {
+  background-color: rgb(215, 95, 51);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.avail-btn:hover {
+  background-color: #45a049;
+}

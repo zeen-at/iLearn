@@ -1,0 +1,16 @@
+.NotFound{
+   background-color: black;
+    background: black;
+    margin-top: -0.3rem;
+    padding-top: 10rem;
+    padding-left: 25rem;
+    padding-bottom: 11rem;
+    
+}
+
+.NotFound-img{
+    width: 60%;
+    height: 100%;
+    border: none;
+    object-fit: cover; 
+}

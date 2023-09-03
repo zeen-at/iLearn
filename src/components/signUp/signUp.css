@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;400&display=swap");
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #cfcfcf;
+  color: rgb(50, 49, 49);
+  overflow: scroll;
+} */
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  /* background-color: rgb(233, 228, 228); */
+
+}
+.logo h2 {
+  /* color: rgb(101, 101, 101); */
+  font-family: Inter;
+  font-size: 40px;
+  color: rgb(43, 43, 43);
+}
+.formHead {
+  line-height: 1;
+  /* border: 1px solid #3ac162; */
+  padding: 10px 20px;
+  margin: 5px 0px 0px 0px;
+  /* margin-bottom: 20px; */
+  color: rgb(43, 43, 43);
+}
+.formBody {
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 5px 20px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 22px
+  ;
+}
+.formInputs {
+  padding: 0px 30px;
+  margin: 0 0px;
+}
+/* h1 {
+    margin: 0 0 30px 0;
+  } */
+input,
+select {
+  border: 1px solid rgb(233, 228, 228);
+  outline: none;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  color: rgb(39, 38, 38);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+}
+.signUp-button {
+  /* padding: 19px 39px 18px 39px; */
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #fd2959;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #fd2959;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.formAlt {
+  text-align: center;
+  color: #21334f;
+}
+.login-link {
+  color: #fd2959;
+  text-decoration: none;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.socialIcons button {
+  /* margin: 10px; */
+  padding: 20px;
+  font-size: 40px;
+  border: 0px;
+  
+  background-color: transparent;
+}
+.errorMsg {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.fbBtn {
+  color: rgb(49, 49, 166);
+}
+/* .resetPassword{
+    margin-bottom: 1em;
+  } */
+#forgot {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.forgot-link {
+  text-decoration: none;
+  color: blue;
+}
+.login_loading {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 20;
+  right: 230;
+  padding-top: 24.7em;
+  /* background-color: aquamarine; */
+}
+.signup_loading {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 20;
+  right: 230;
+  padding-top: 79vh;
+  /* background-color: #21334f; */
+}
+.signUp-button:hover{
+  font-weight: 1000;
+  background: rgb(184, 0, 0);
+}
+.signUpContainer{
+  /* background-color: rgb(233, 228, 228); */
+  /* width: 40vw; */
+}
+.formContainer{
+  margin-bottom: 45px;
+}

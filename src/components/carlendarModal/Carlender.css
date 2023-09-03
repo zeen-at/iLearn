@@ -1,0 +1,33 @@
+.react-calendar {
+    width: 350px;
+    max-width: 100%;
+    /* background: black; */
+    border: 1px solid #a0a096;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.500em;
+  }
+
+  .highlight {
+    font-weight: 900;
+    background-color: rgb(196, 191, 219);
+  }
+
+  .cd-closemodal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 2px;
+    /* gap: 10px; */
+
+    /* position: relative; */
+    width: 350px;
+    height: 40px;
+    left: 40px;
+    /* top: 700px; */
+
+    background: rgb(196, 191, 219);
+    border-radius: 4px;
+    margin-top: 5px;
+    display: block
+  }

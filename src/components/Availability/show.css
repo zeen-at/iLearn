@@ -1,0 +1,113 @@
+.tutor-Availability-container {
+  border: 1px solid rgb(201, 199, 199);
+  margin-left: auto;
+  margin-right: auto;
+  width: 770px;
+  text-align: left;
+  justify-content: left;
+  padding: 15px;
+  border-radius: 2px;
+}
+.tutor-Availability-container hr {
+  margin-top: 10px;
+}
+.tutorAvailability-buttonContainer {
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+.button-active {
+  border: 1px solid brown !important;
+}
+.tutorAvailability-buttonContainer2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 10px;
+}
+.tutorAvailability-buttonContainer button {
+  border: 1px solid rgb(196, 193, 193);
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.tutorAvailability-buttonContainer2 button {
+  border: 1px solid rgb(196, 193, 193);
+  padding: 2px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.tutorAvailability-buttonContainer button:active {
+  background-color: red;
+}
+.tutorAvailability-submitButton {
+  background-color: rgb(215, 95, 51);
+  border: 1px solid rgb(215, 95, 51);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  max-width: 50%;
+  padding: 10px;
+}
+.tutorAvailability-submitButton > button {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+button[disabled] {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+.disabled{
+  background-color: gray;
+  border: 1px solid rgb(215, 95, 51);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  max-width: 50%;
+  padding: 10px;
+}
+.next-arrow {
+  font-size: 20px;
+  cursor: pointer;
+  font-style: italic;
+}
+.previous-arrow {
+  font-size: 20px;
+  cursor: pointer;
+  font-style: italic;
+}
+@media screen and (max-width: 600px){
+  .tutorAvailability-buttonContainer2{
+    flex-direction: column;
+  }
+  .tutor-Availability-container{
+    max-width: 300px;
+  }
+}
+@media (max-width:1096px) and (min-width:599px) {
+  .tutor-Availability-container{
+    max-width: 500px;
+  }
+}
+@media (max-width:737px) and (min-width:591px) {
+  .tutor-Availability-container{
+    max-width: 400px;
+  }
+}
+@media (max-width:498px) and (min-width:320px) {
+  .tutor-Availability-container{
+    max-width: 200px;
+  }
+}

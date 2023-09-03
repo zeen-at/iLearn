@@ -1,0 +1,110 @@
+.card {
+    max-width: 600px;
+    height: 75vh;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content {
+    float: left;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    display: flex;
+
+}
+
+.card-content img {
+    border-radius: 50%;
+}
+
+.card-footer {
+    clear: both;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.star {
+    font-size: 2em;
+    color: #f7c133;
+    cursor: pointer;
+
+}
+
+.star:hover {
+    color: #f7c133;
+    cursor: pointer;
+
+}
+
+.submit-button {
+    color: white;
+    background-color: red;
+    width: 29rem;
+}
+
+.comment-box {
+    width: 100%;
+}
+
+#page {
+
+    text-align: left;
+
+    display: block;
+
+    padding-left: 40px;
+}
+
+#tutorName {
+
+    margin-top: 10px;
+    margin-left: 0.9rem;
+    padding: 0;
+}
+
+#tutorName h3 {
+    text-align: left;
+
+}
+
+#tutorName p {
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+
+.lineup {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: space-between;
+    max-width: 600px;
+    margin-left: 120px;
+
+}
+
+.back {
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+
+}
+
+#tutor {
+    margin-left: 200px;
+    padding-left: 40px;
+    text-align: right;
+
+}
+
+.ratingTextarea {
+    padding-left: 10px;
+    padding-top: 10px;
+}

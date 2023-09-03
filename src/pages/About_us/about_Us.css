@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+
+}
+
+.brand-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-title span {
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(216, 213, 213);
+    padding: 7px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+    padding: 1rem;
+    display: block;
+    font-weight: bold;
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 20px;
+}
+.heroNavbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    /* background-color: #FFFFFF; */
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+}
+
+.navbar-links li a:hover {
+    color: orangered;
+    transition: .3s;
+}
+
+.line {
+    border-left: 1px solid white;
+    top: 10px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    justify-content: left;
+}
+
+.card {
+    /* margin-top: 30px; */
+    
+    padding: 10px;
+    justify-content: left;
+}
+
+.firstCard {
+    font-size: 30px;
+    /* background-color: red; */
+    /* height: 23px; */
+}
+
+.buttonCard {
+    background-color: #fd2929d8;
+    padding: 10px;
+    width: 250px;
+    height: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 18px;
+}
+
+.buttonCardOne {
+    background-color: #fd2929d8;
+    padding: 14px;
+    width: 250px;
+    height: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 18px;
+}
+
+.buttonCard a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.buttonCardOne a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 3.4em;
+}
+
+.hero {
+    height:100vh;
+    width: 100%;
+    background: center center fixed;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image.png');
+    background-repeat: no-repeat;
+    resize: both;
+    overflow: auto;
+    background-size: 100% 100%;
+}
+
+#num {
+    font-weight: 900;
+    color: gold;
+    font-size: larger;
+
+}
+
+#naming {
+    color: lightseagreen;
+    font-weight: bolder;
+
+}
+
+#us {
+    font-size: large;
+}
+.heroContent{
+    /* background-color: red; */
+    color: white;
+    margin: 12em 0 0 10em;
+}
+
+ /*special */
+ .homepage-brand-title,
+ .homepage-navbar-toggle,
+ .homepage-navbar-links {
+   align-self: center;
+ }
+ .homepage-navbar-toggle{
+   display: none;
+ }
+  /*special */
+
+@media (max-width: 1372px) and (min-width: 799px){
+    .hero {
+        height:100vh;
+        width: 100%;
+        background: center center fixed;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image3.png');
+        background-repeat: no-repeat;
+        resize: both;
+        overflow: auto;
+        background-size: 100% 100%;
+    }
+    .firstCard {
+        font-size: 20px;
+    }
+    .heroContent{
+        /* background-color: red; */
+        color: white;
+        margin: 12em 0 0 2em;
+        height: 23em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    .heroNavbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        /* background-color: #FFFFFF; */
+        box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+    }
+}
+
+@media (max-width: 798px) and (min-width: 769px){
+    .hero {
+        height:100vh;
+        width: 100%;
+        background: center center fixed;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image3.png');
+        background-repeat: no-repeat;
+        resize: both;
+        overflow: auto;
+        background-size: 100% 100%;
+    }
+    .heroContent{
+        /* background-color: red; */
+        color: white;
+        margin: 20em 0 0 0em;
+        height: 28em;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 768px) and (min-width: 684px){
+    .hero {
+        height:100vh;
+        width: 100%;
+        background: center center fixed;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image3.png');
+        background-repeat: no-repeat;
+        resize: both;
+        overflow: auto;
+        background-size: 100% 100%;
+    }
+    .heroContent{
+        /* background-color: red; */
+        color: white;
+        margin: 20em 0 0 0em;
+        height: 28em;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .firstCard {
+        font-size: 27px;
+    }
+    
+      .navbar-links{
+        display: none;
+      }
+       
+          .homepage-navbar-toggle{
+            display:contents;
+          }
+        .homepage-navbar-toggle-icon {
+            font-size: 34px;
+            color: #fff;
+            margin-top: -2rem;
+            margin-left: 15rem;
+            /* background-color: red; */
+        }
+         
+          .navbar-li{
+            /* background-color: red; */
+            box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.16);
+            /* background-color: bisque; */
+            width: 8em;
+            margin-left: 12em;
+            /* margin-top: 8em; */
+          }
+
+          .navbarLinkUl{
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            /* box-shadow: 0px 4px 4px 4px rgba(59, 54, 54, 0.86); */
+
+            /* height: 5em; */
+          }
+          .navbarLinkUl > li > a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: .7em;
+          }
+          .buttonCardOne {
+            background-color: #fd2929d8;
+            padding: 4px;
+            width:120px;
+            height: 2em;
+            /* text-align: center; */
+            text-decoration: none;
+            color: white;
+            margin: 10px 0px;
+            border-radius: 18px;
+        }
+    }
+    @media (max-width: 684px) and (min-width: 543px){
+        .hero {
+            height:100vh;
+            width: 100%;
+            background: center center fixed;
+            background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image3.png');
+            background-repeat: no-repeat;
+            resize: both;
+            overflow: auto;
+            background-size: 100% 100%;
+        }
+        .heroContent{
+            /* background-color: red; */
+            color: white;
+            margin: 20em 0 0 0em;
+            height: 28em;
+            display: flex;
+            width: 100vw;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+        }
+        
+          .navbar-links{
+            display: none;
+          }
+           
+          .firstCard {
+            font-size: 23px;
+        }
+              .homepage-navbar-toggle{
+                display:contents;
+              }
+            .homepage-navbar-toggle-icon {
+                font-size: 34px;
+                color: #fff;
+                margin-top: -2rem;
+                margin-left: 15rem;
+                /* background-color: red; */
+            }
+             
+              .navbar-li{
+                /* background-color: red; */
+                box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.16);
+                /* background-color: bisque; */
+                width: 8em;
+                margin-left: 12em;
+                /* margin-top: 8em; */
+              }
+    
+              .navbarLinkUl{
+                /* background-color: red; */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                /* box-shadow: 0px 4px 4px 4px rgba(59, 54, 54, 0.86); */
+    
+                /* height: 5em; */
+              }
+              .navbarLinkUl > li > a{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: .7em;
+              }
+              .buttonCardOne {
+                background-color: #fd2929d8;
+                padding: 4px;
+                width:120px;
+                height: 2em;
+                /* text-align: center; */
+                text-decoration: none;
+                color: white;
+                margin: 10px 0px;
+                border-radius: 18px;
+            }
+    }
+    @media (max-width: 543px) and (min-width: 320px){
+        .hero {
+            height:87vh;
+            width: 100%;
+            background: center center fixed;
+            background-image:linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../assets/cover-image3.png');
+            background-repeat: no-repeat;
+            resize: both;
+            overflow: hidden;
+            /* overflow: auto; */
+            background-size: 100% 80%;
+        }
+        .heroContent{
+            /* background-color: red; */
+            color: white;
+            margin: 17em 0 0 0em;
+            height: 28em;
+            display: flex;
+            width: 100vw;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+        }
+        
+          .navbar-links{
+            display: none;
+          }
+           
+          .firstCard {
+            font-size: 20px;
+        }
+              .homepage-navbar-toggle{
+                display:contents;
+              }
+            .homepage-navbar-toggle-icon {
+                font-size: 34px;
+                color: white;
+                margin-top: -2rem;
+                margin-left: 4rem;
+                /* background-color: red; */
+            }
+            .heroNavbar{
+                background-color: rgba(28, 22, 22, 0.9);
+                position: fixed;
+                width: 100vw;
+                margin-bottom: 6em;
+            }
+             
+              .navbar-li{
+                /* background-color: red; */
+                box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
+                /* background-color: bisque; */
+                width: 8em;
+                margin-left: 7em;
+                /* margin-top: -1em; */
+              }
+    
+              .navbarLinkUl{
+                /* background-color: red; */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+              }
+              .navbarLinkUl > li > a{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: .7em;
+              }
+              .buttonCardOne {
+                background-color: #fd2929d8;
+                padding: 4px;
+                width:120px;
+                height: 2em;
+                /* text-align: center; */
+                text-decoration: none;
+                color: white;
+                margin: 10px 0px;
+                border-radius: 18px;
+            }
+            .card1{
+                margin-top: 8em;
+                margin-bottom: 3em;
+            }
+           
+    }
+   
+   
+   

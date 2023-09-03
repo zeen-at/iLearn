@@ -1,0 +1,86 @@
+.coursePage-container {
+    height: 80vh;
+    width: 70vw;
+    /* background-color: chartreuse; */
+    margin-left: 2rem;
+    color: #000;
+    /* margin-top: 1rem; */
+    /* overflow: hidden; */
+}
+
+.coursePage-details {
+    display: flex;
+    /* justify-content:left; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.coursePage-image img {
+    height: 120px;
+}
+
+.coursePage-writeUps {
+    margin-left: 1rem;
+    text-align: left;
+    border: 1px solid red;
+    width: 50%;
+    box-shadow: 5px 5px;
+    line-height: 2.3;
+    /* padding: 2rem 0; */
+}
+
+.CoursePage-title {
+    text-align: left;
+}
+
+.coursePage-writeUps h4 {
+    padding-left: 0.7rem;
+    display: inline;
+}
+
+.coursePage-desc {
+    padding: 10rem 0;
+}
+
+.all_courses_details{
+    text-decoration: none;
+}
+.coursePage-rating {
+    padding-left: 0.9rem;
+    /* text-align: center; */
+    /* line-height: 2.2; */
+    /* display: flex; */
+    margin-top: 10px;
+}
+.coursesPage-icon{
+    font-size:xx-large;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.coursePage-price {
+    /* margin-top: 5rem; */
+    /* padding-left: -10px; */
+}
+
+.seeMore {
+    margin-left: 40rem;
+    background-color: #8a220b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.contentPage {
+    /* background-color: rgb(244, 236, 224); */
+}

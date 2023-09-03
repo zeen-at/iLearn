@@ -1,0 +1,99 @@
+{
+    "courses": [
+            {
+            "category": "python",
+            "course": [
+                    {
+                    "name": "John Anna",
+                    "title": "Python for beginners",
+                    "courseId": 1,
+                    "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 4.2
+                    },
+                    {
+                    "name": "Fabian Orange",
+                    "title": "Python for intermediate",
+                    "courseId": 2,
+                    "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 3.4
+                    },
+                    {
+                        "name": "Newness Anna",
+                        "title": "New Python for beginners",
+                        "courseId": 3,
+                        "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=600",
+                        "rating": 3.2
+                    },
+                    {
+                    "name": "Michael Orange",
+                    "title": "New Python for intermediate",
+                    "courseId": 4,
+                    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 4.4
+                    },
+                    {
+                        "name": "James Anna",
+                        "title": "Python for beginners",
+                        "courseId": 5,
+                        "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                        "rating": 4.2
+                        },
+                        {
+                        "name": "Courage Orange",
+                        "title": "Python for intermediate",
+                        "courseId": 6,
+                        "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                        "rating": 3.4
+                        },
+                        {
+                            "name": "Goodness Anna",
+                            "title": "New Python for beginners",
+                            "courseId": 7,
+                            "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "rating": 3.2
+                        },
+                        {
+                        "name": "Solomon Orange",
+                        "title": "New Python for intermediate",
+                        "courseId": 8,
+                        "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=600",
+                        "rating": 4.4
+                        }
+                ]
+            },
+            {
+                "category": "javascript",
+                "course": [
+                    {
+                    "name": "Oral Greene",
+                    "title": "Javascript made easy",
+                    "courseId": 9,
+                    "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 3.3
+                    }, 
+                    {
+                    "name": "Samuel Ortom",
+                    "title": "The secret of javascript",
+                    "courseId": 10,
+                    "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 3.5
+                    },
+                    {
+                        "name": "Matthew Roberts",
+                        "title": "Javascript made easy",
+                        "courseId": 11,
+                        "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                        "rating": 3.3
+                        }, 
+                    {
+                    "name": "Samuel Victor",
+                    "title": "The secret of javascript",
+                    "courseId": 12,
+                    "image": "https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "rating": 3.5
+                    }
+                ]
+            }
+            
+    ]
+}

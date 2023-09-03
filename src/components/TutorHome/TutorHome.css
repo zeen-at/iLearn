@@ -1,0 +1,294 @@
+.tutorMainContainer {
+  margin-left: 100px;
+  margin-top: -70px;
+  margin-right: 100px;
+}
+.tutorHeader {
+  display: flex;
+  align-items: center;
+}
+
+.review-class{
+  margin-top: 40px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.tutorHeader-img {
+  margin-right: 50px;
+  border-radius: 400px;
+  height: 200px;
+  width: 200px;
+  border: 4px;
+  border-color: white;
+  border-style: solid;
+}
+.tutor-Img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* tabs */
+.tab-Container {
+  margin-top: 30px;
+}
+.tab-list {
+  border: none;
+}
+.react-tabs__tab {
+  border: none;
+  width: 150px;
+}
+.react-tabs__tab--selected {
+  border: 0;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: black;
+  background: none;
+}
+.react-tabs__tab--selected::after {
+  border: 0;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* overview tab section */
+.create-avail{
+  /* margin-top: 40px; */
+  margin: 0 auto;
+  width:40%;
+  
+}
+
+.tutor-overview__container {
+  display: flex;
+}
+.tutor-overview-details {
+  width: 50%;
+}
+
+.modal-container {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tutor_home_courseCard{
+  display: flex;
+  flex-wrap: wrap;
+  width: 86vw;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+.tutor_home_singleCard{
+  box-shadow: 4px 4px 14px 2px #D3D3D3;
+  width: 22.8em;
+  height: 23em;
+  position: relative;
+  margin: 3em auto;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+
+}
+.tutorCourse-img{
+  /* background-color: violet; */
+  width: 22.8em;
+  height: 180px;
+}
+.tutorCourse_imageBody{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.tutorCourse_button{
+  display: flex;
+  position: absolute;
+  /* background-color: blue; */
+  justify-content: space-between;
+  align-items:flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modal-body {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: darkblue;
+}
+.tutorCourse_deleteButton{
+  cursor: pointer;
+  background: rgba(253, 41, 89, 0.2);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 22px 3px;
+}
+.tutorCourse_editButton{
+  cursor: pointer;
+  background: rgba(253, 41, 89, 0.2);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px 22px;
+}
+.tutorHome_addButton{
+  cursor: pointer;
+  background: rgba(253, 41, 89, 0.2);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 22px 3px;
+}
+.tutorCourse_editButton:hover, .tutorCourse_deleteButton:hover, .tutorHome_addButton:hover{
+  font-weight: 800;
+  background: rgba(253, 41, 89, 0.5);
+}
+.tutorHome_addContainer{
+  display: flex;
+  /* background-color: blue; */
+  justify-content: flex-end;
+  align-items: center;
+}
+.tutorCourse-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 8em;
+  /* background-color: aquamarine; */
+  padding: 0 .8em;
+}
+
+.tutorCourse-nameContainer{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  width: 20.5em;
+  padding-left: .7em;
+  justify-content: center;
+  height: 65px;
+}
+.tutorCourse-name{
+  /* margin-right: 2em; */
+}
+.tutorCourse_rating{
+  /* margin-left: 21px;
+*/
+}
+
+@media (max-width: 849px) and (min-width: 320px){
+  .parent-container{
+    width: 100vw;    
+    height: 100px;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    /* background-color: blue; */
+  }
+  .welcome-box{
+    margin-left: 0em;
+  }
+  .search-icon{
+    margin: 10px;
+  }
+  .input-type-search{
+    width: 80vw;
+    height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .tutorMainContainer {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .tutorHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    /* background-color: aqua; */
+  }
+ .tutor_home_courseCard{
+  width: 86vw;
+  /* background-color: aqua; */
+  justify-content: space-between;
+ }
+.tutor_home_singleCard{
+  width: 18em;
+  height: 23em;
+  position: relative;
+}
+.tutorCourse-img{
+  width: 18em;
+}
+.tutorHome_addContainer{
+  width: 83vw;
+}
+.tutorCourse_editButton, .tutorCourse_deleteButton {
+  width: 100px;
+}
+.tutorHome_addButton{
+  width: 140px;
+}
+
+.tutor-overview__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.tutor-overview-details {
+  width: 100vw;
+}
+.create-avail{
+  /* margin-top: 40px; */
+  margin: 0;
+  width:100vw;
+  /* background-color: blueviolet; */
+  
+}
+.tutor-Availability-container {
+    width: 100vw;
+}
+.tutorAvailability-submitButton > button {
+  width: 3em;
+}
+
+}

@@ -1,0 +1,12 @@
+.eachAreaOfInterest{
+    font-size: 15px;
+    background-color: #eceaea;
+    padding: 5px;
+    border-spacing: 3px;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.areas-container{
+    justify-content: space-between;
+}

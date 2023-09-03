@@ -1,0 +1,104 @@
+.paidCourses header {
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paidCourses__container__clicks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paidCourses__container__document {
+  margin: 1em 0;
+}
+.paidCourses__container__document .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.annotationLayer {
+  height: 10px !important;
+}
+.paidCourses__container__document .react-pdf__Page {
+  max-width: calc(100% - 2em);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  margin: 1em;
+}
+.paidCourses__container__document .react-pdf__Page canvas {
+  max-width: 100%;
+  height: 50%;
+}
+.paidCourses__container__document .react-pdf__message {
+  padding: 20px;
+  color: white;
+}
+.paidCourses__previous__button {
+  width: 8%;
+  height: 5vh;
+  border-radius: 50px;
+  border: none;
+  background: #7e7974;
+  color: #fff;
+  display: block;
+}
+.paidCourses__next__button {
+  width: 8%;
+  height: 5vh;
+  border-radius: 50px;
+  border: none;
+  background: #7e7974;;
+  color: #fff;
+  display: block;
+  margin-left: 20px;
+}
+.paidCourses__go__input {
+  width: 6%;
+  height: 5vh;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paidCourses__pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #7e7974;
+  width: 50px;
+  margin: 0 auto;
+}
+.left .arrow {
+  transform: rotate(90deg);
+  margin-left: 300px;
+}
+.right .arrow {
+  transform: rotate(-90deg);
+  margin-right: 300px;
+}

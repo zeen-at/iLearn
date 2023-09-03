@@ -1,0 +1,31 @@
+.createCourseContainer{
+    margin: 10px 0px;
+    padding: 0px;
+}
+.createCourseHeader{
+    padding: 20px;
+}
+.createCourseBody{
+    padding: 30px;
+}
+.createCourseSelectOption > div{
+    padding: 10px;
+}
+
+.up-buttons{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+}
+.up-done-picking-courses{
+    background-color: rgb(166, 52, 52);
+    color: white;
+    padding: 2px 5px;
+    margin: 10px;
+}
+.up-refreshed-picked-courses{
+    background-color: rgb(185, 181, 181);
+    padding: 2px 5px;
+    margin: 10px;
+
+}

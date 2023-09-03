@@ -1,0 +1,127 @@
+.tutor_container {
+  margin: 0 auto;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* Name of student who sent request */
+.tutor_title h2 {
+  margin: 0;
+  font-size: 0.9em;
+  padding: 5px;
+  border-radius: 5px;
+  color: #555;
+  margin-bottom: 5px;
+  background-color: rgba(253, 41, 89, 0.2);
+  color: black
+}
+
+.tutor_notifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 50px 0px;
+}
+.tutor_bookings {
+  background-color: rgba(253, 41, 89, 0.2);
+  padding-left: 65px;
+  color: black;
+  width: 93%;
+}
+
+.tutor_notification {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tutor_title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.tutor_title p {
+  font-size: 12px;
+}
+
+.tutor_title p.message {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: rgb(54, 6, 6);
+}
+
+.date-text {
+  color: #006699;
+}
+
+.tutor_start_date {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: rgb(183, 6, 6);
+}
+
+/* .tutor_end_date {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: red;
+} */
+
+/* .tutor_area_interest {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: rgb(54, 6, 6);
+} */
+
+.date-time {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: rgb(54, 6, 6);
+}
+
+.tutor_NotImgContainer{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.tutor_NotImgBody{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+@media (max-width: 849px) and (min-width: 320px){
+.tutor_notifications {
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0px;
+}
+.tutor_notification {
+  margin-bottom: 12px;
+  width: 250px;
+}
+}

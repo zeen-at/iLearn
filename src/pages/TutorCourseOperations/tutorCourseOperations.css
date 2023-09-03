@@ -1,0 +1,53 @@
+.tutorImageContainer{
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.tutorImageJpg{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.submitButton{
+    cursor: pointer;
+    background: rgba(253, 41, 89, 0.3);
+    width: 8em;
+    height: 2em;
+    border-radius: 5px;
+}
+.submitButton:hover{
+    font-weight: 800;
+    background: rgba(253, 41, 89, 0.6);
+}
+
+.tutor_formContainer{
+    height: 500px;
+    width: 46em;
+    /* margin-bottom: 6em; */
+    /* background-color: bisque; */
+}
+.react-responsive-modal-modal{
+    border-radius: 23px;
+    /* height: 350px; */
+}
+.tutorError{
+    color: red;
+    width: 56em;
+}
+.crudForm{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 6em; */
+    /* background-color: red; */
+    /* justify-content: space-between; */
+}
+.tutorCourse-searchInput{
+    margin-bottom: 1em;
+    border-radius: 4px;
+    padding: 4px 0;
+}
+.imgContainer-tutor{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.star {
+    font-size: 2em;
+    color: #f7c133;
+    cursor: pointer;
+    /* increases the font size of the star */
+}
+
+.star:hover {
+    color: #f7c133;
+    cursor: pointer;
+    /* changes the color of the star on hover */
+}
+
+/* button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on {
+    color: #f0d509;
+}
+
+.off {
+    color: #ccc;
+} */
